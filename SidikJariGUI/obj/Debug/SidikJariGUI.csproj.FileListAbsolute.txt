@@ -1,0 +1,10 @@
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\bin\Debug\SidikJariGUI.exe.config
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\bin\Debug\SidikJariGUI.exe
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\bin\Debug\SidikJariGUI.pdb
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.csproj.AssemblyReference.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.Form1.resources
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.Properties.Resources.resources
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.csproj.GenerateResource.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.csproj.CoreCompileInputs.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.exe
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\SidikJariGUI\obj\Debug\SidikJariGUI.pdb
