@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\Database\\SQLiteNET.csproj": {}
+    "C:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\SidikJariGUI\\Database\\SQLiteNET.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\Database\\SQLiteNET.csproj": {
+    "C:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\SidikJariGUI\\Database\\SQLiteNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\Database\\SQLiteNET.csproj",
+        "projectUniqueName": "C:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\SidikJariGUI\\Database\\SQLiteNET.csproj",
         "projectName": "SQLiteNET",
-        "projectPath": "c:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\Database\\SQLiteNET.csproj",
+        "projectPath": "C:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\SidikJariGUI\\Database\\SQLiteNET.csproj",
         "packagesPath": "C:\\Users\\Dhinto\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\Database\\obj\\",
+        "outputPath": "C:\\Users\\Dhinto\\Documents\\GitHub\\Tubes3_Ireng-Jeung-Paris\\SidikJariGUI\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dhinto\\AppData\\Roaming\\NuGet\\NuGet.Config"
