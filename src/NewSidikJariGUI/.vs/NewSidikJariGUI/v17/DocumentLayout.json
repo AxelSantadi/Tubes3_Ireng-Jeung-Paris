@@ -7,21 +7,8 @@
       "RelativeMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39627C52-334E-419F-B372-9A6469C680B0}|..\\Database\\Database.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\database\\fingerprintservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39627C52-334E-419F-B372-9A6469C680B0}|..\\Database\\Database.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\database\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ABE11B9-31BB-4005-AFD5-CEA7C3A584F9}|..\\Algorithm\\Algorithm.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\algorithm\\fingerprintconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\newsidikjarigui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ABE11B9-31BB-4005-AFD5-CEA7C3A584F9}|..\\Algorithm\\Algorithm.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\algorithm\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestSolution\\obj\\Release\\net8.0\\TestSolution.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\newsidikjarigui\\newsidikjarigui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{7B3F807A-35B2-4FE5-BA22-A665E93FB3B5}|NewSidikJariGUI.csproj|solutionrelative:newsidikjarigui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\obj\\Debug\\net8.0-windows\\NewSidikJariGUI.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\NewSidikJariGUI.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -68,45 +51,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\Models.cs",
-              "RelativeDocumentMoniker": "..\\Database\\Models.cs",
-              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\Models.cs",
-              "RelativeToolTip": "..\\Database\\Models.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:02:02.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T11:12:23.598Z",
+              "WhenOpened": "2024-06-08T14:21:19.424Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FingerprintService.cs",
-              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\FingerprintService.cs",
-              "RelativeDocumentMoniker": "..\\Database\\FingerprintService.cs",
-              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\FingerprintService.cs",
-              "RelativeToolTip": "..\\Database\\FingerprintService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAADwvzAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:27:34.842Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,40 +73,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAYwE8AAAAUAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwEMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:08:11.57Z",
+              "WhenOpened": "2024-06-08T14:21:14.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "fingerprintConverter.cs",
-              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\fingerprintConverter.cs",
-              "RelativeDocumentMoniker": "..\\Algorithm\\fingerprintConverter.cs",
-              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\fingerprintConverter.cs",
-              "RelativeToolTip": "..\\Algorithm\\fingerprintConverter.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:04:41.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T12:59:54.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "KMP.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\KMP.cs",
               "RelativeDocumentMoniker": "..\\Algorithm\\KMP.cs",
@@ -157,12 +88,11 @@
               "RelativeToolTip": "..\\Algorithm\\KMP.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T13:06:51.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:06:51.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Algorithm.csproj",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\Algorithm.csproj",
               "RelativeDocumentMoniker": "..\\Algorithm\\Algorithm.csproj",
@@ -170,12 +100,11 @@
               "RelativeToolTip": "..\\Algorithm\\Algorithm.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-08T13:06:41.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T13:06:41.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "BM.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\BM.cs",
               "RelativeDocumentMoniker": "..\\Algorithm\\BM.cs",
@@ -187,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -199,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Hamming.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Algorithm\\SimilarityChecker\\Hamming.cs",
               "RelativeDocumentMoniker": "..\\Algorithm\\SimilarityChecker\\Hamming.cs",
@@ -211,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "TestSolution.AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\TestSolution\\obj\\Release\\net8.0\\TestSolution.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "TestSolution\\obj\\Release\\net8.0\\TestSolution.AssemblyInfo.cs",
@@ -222,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "NewSidikJariGUI.AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\obj\\Debug\\net8.0-windows\\NewSidikJariGUI.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\NewSidikJariGUI.AssemblyInfo.cs",
@@ -234,19 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NewSidikJariGUI",
-              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\NewSidikJariGUI.csproj",
-              "RelativeDocumentMoniker": "NewSidikJariGUI.csproj",
-              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\NewSidikJariGUI\\NewSidikJariGUI.csproj",
-              "RelativeToolTip": "NewSidikJariGUI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-08T12:42:54.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "FingerprintService.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\NewSidikJariGUI\\Database\\FingerprintService.cs",
               "RelativeDocumentMoniker": "..\\..\\NewSidikJariGUI\\Database\\FingerprintService.cs",
@@ -258,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "FileSystemEnumerableFactory.cs",
               "DocumentMoniker": "C:\\Users\\Muneki\\AppData\\Local\\Temp\\.vsdbgsrc\\0e05728fd00ebad910b798cc5b5b09e03dc4f92e1b6de9271c5a8fad33deac47\\FileSystemEnumerableFactory.cs",
               "ToolTip": "C:\\Users\\Muneki\\AppData\\Local\\Temp\\.vsdbgsrc\\0e05728fd00ebad910b798cc5b5b09e03dc4f92e1b6de9271c5a8fad33deac47\\FileSystemEnumerableFactory.cs [Read Only]",
@@ -269,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\NewSidikJariGUI\\Database\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\NewSidikJariGUI\\Database\\Program.cs",

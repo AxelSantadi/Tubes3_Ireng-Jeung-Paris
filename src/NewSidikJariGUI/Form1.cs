@@ -66,7 +66,7 @@ namespace NewSidikJariGUI
             {
                 Stopwatch sw = Stopwatch.StartNew();
                 String fname = fs.getBerkascitrabyAlgo(current_imgpath, algo);
-                if (fname != null && fname != "");
+                if (fname != null && fname != "")
                 {
                     String path = Path.Combine(@"..\..\..\..\Database", fname);
                     pictureBox2.Image = Image.FromFile(path);
@@ -87,6 +87,7 @@ namespace NewSidikJariGUI
                     sw.Stop();
                     ReportResult1.Text = $"{sw.ElapsedMilliseconds}ms";
                     ReportResult2.Text = $"Not found!";
+                    textBox1.Text = "NOT FOUND!!!";
                 }
 
             }
@@ -127,6 +128,11 @@ namespace NewSidikJariGUI
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

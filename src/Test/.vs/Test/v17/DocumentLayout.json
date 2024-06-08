@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3511E04-7AD1-4002-8F3C-659009A4D014}|Test.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3511E04-7AD1-4002-8F3C-659009A4D014}|Test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3511E04-7AD1-4002-8F3C-659009A4D014}|Test.csproj|d:\\code 2\\sem 4\\tubes3_ireng-jeung-paris\\src\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3511E04-7AD1-4002-8F3C-659009A4D014}|Test.csproj|solutionrelative:test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test",
+              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Test\\Test.csproj",
+              "RelativeDocumentMoniker": "Test.csproj",
+              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Test\\Test.csproj",
+              "RelativeToolTip": "Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-08T14:28:22.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T14:27:59.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

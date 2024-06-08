@@ -33,6 +33,7 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             flowLayoutPanel1 = new FlowLayoutPanel();
             ResultHeader = new Label();
+            textBox1 = new TextBox();
             tableLayoutPanel2 = new TableLayoutPanel();
             IMGPick_Button = new Button();
             AlgorithmChoice = new TableLayoutPanel();
@@ -93,6 +94,7 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Controls.Add(ResultHeader);
+            flowLayoutPanel1.Controls.Add(textBox1);
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel1.Location = new Point(603, 3);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -109,6 +111,15 @@
             ResultHeader.TabIndex = 0;
             ResultHeader.Text = "Results :";
             ResultHeader.Click += label1_Click_1;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(3, 23);
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // tableLayoutPanel2
             // 
@@ -282,5 +293,6 @@
         private Label ReportResult1;
         private Label ReportName2;
         private Button Search_Button;
+        private TextBox textBox1;
     }
 }
