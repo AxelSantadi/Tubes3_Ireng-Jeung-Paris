@@ -1,0 +1,13 @@
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\bin\Debug\net8.0\Algorithm.deps.json
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\bin\Debug\net8.0\Algorithm.dll
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\bin\Debug\net8.0\Algorithm.pdb
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.csproj.AssemblyReference.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.AssemblyInfoInputs.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.AssemblyInfo.cs
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.csproj.CoreCompileInputs.cache
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.sourcelink.json
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.dll
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\refint\Algorithm.dll
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\Algorithm.pdb
+D:\Code 2\Sem 4\Tubes3_Ireng-Jeung-Paris\src\Algorithm\obj\Debug\net8.0\ref\Algorithm.dll

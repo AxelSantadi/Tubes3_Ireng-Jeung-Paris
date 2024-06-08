@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database.csproj", "{306C705D-644B-40C7-BE22-89B9F81B3320}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm", "..\Algorithm\Algorithm.csproj", "{5D124E69-0E18-4900-8863-BD7267EEF043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreakyLib", "..\FreakyLib\FreakyLib.csproj", "{62541AAA-F4B3-4540-A03C-52D58431CD38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{306C705D-644B-40C7-BE22-89B9F81B3320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306C705D-644B-40C7-BE22-89B9F81B3320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306C705D-644B-40C7-BE22-89B9F81B3320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306C705D-644B-40C7-BE22-89B9F81B3320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D124E69-0E18-4900-8863-BD7267EEF043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D124E69-0E18-4900-8863-BD7267EEF043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D124E69-0E18-4900-8863-BD7267EEF043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D124E69-0E18-4900-8863-BD7267EEF043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62541AAA-F4B3-4540-A03C-52D58431CD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62541AAA-F4B3-4540-A03C-52D58431CD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62541AAA-F4B3-4540-A03C-52D58431CD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62541AAA-F4B3-4540-A03C-52D58431CD38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED239698-DFF4-4E24-88BC-3F9542E0E94D}
+	EndGlobalSection
+EndGlobal

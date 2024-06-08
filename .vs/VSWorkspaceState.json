@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\NewSidikJariGUI"
   ],
+  "SelectedNode": "\\src\\NewSidikJariGUI\\NewSidikJariGUI.sln",
   "PreviewInSolutionExplorer": true
 }

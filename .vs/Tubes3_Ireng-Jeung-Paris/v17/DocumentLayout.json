@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\Database.sln||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Database\\Database.sln||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Database.sln",
+              "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\Database.sln",
+              "RelativeDocumentMoniker": "src\\Database\\Database.sln",
+              "ToolTip": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\src\\Database\\Database.sln",
+              "RelativeToolTip": "src\\Database\\Database.sln",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002855|",
+              "WhenOpened": "2024-06-08T12:37:47.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Code 2\\Sem 4\\Tubes3_Ireng-Jeung-Paris\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
@@ -26,8 +47,7 @@
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T04:54:08.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T04:54:08.46Z"
             }
           ]
         }
