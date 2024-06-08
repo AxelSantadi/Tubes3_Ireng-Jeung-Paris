@@ -10,6 +10,18 @@ public class FingerprintService
         _connection = connection;
     }
 
+    public FingerprintService(string dbPath)
+    {
+        try{
+            _connection = new SQLiteConnection(dbPath);
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+    }
+
     public string GetNamaByBerkasCitra(string berkasCitra)
     {
         var query = $"SELECT Nama FROM SidikJari WHERE BerkasCitra = ?";
