@@ -19,8 +19,8 @@ public enum StatusPerkawinan
 [Table("Biodata")]
 public class Biodata
 {
-    [PrimaryKey]
-    public int NIK { get; set; }
+    [PrimaryKey, MaxLength(16)]
+    public string NIK { get; set; }
 
     [MaxLength(100), DefaultValue(null)]
     public string Nama { get; set; }

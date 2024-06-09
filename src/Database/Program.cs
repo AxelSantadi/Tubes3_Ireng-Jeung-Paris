@@ -23,7 +23,12 @@ public class Program
         string fingerprintDirectory = @"assets";
 
         var fakerBiodata = new Faker<Biodata>()
-            .RuleFor(b => b.NIK, (f, b) => int.Parse(f.Random.ReplaceNumbers("#########")) * 1000)
+            .RuleFor(b => b.NIK, (f, b) => 
+            {
+                string baseNik = f.Random.ReplaceNumbers("3############");
+                int nikSuffix = f.Random.Int(1, 600);
+                return baseNik + nikSuffix.ToString("D3");
+            })
             .RuleFor(b => b.Nama, f => Biodata.NormalizeNama(f.Name.FullName()))
             .RuleFor(b => b.TempatLahir, f => f.Address.City())
             .RuleFor(b => b.TanggalLahir, f => f.Date.Past(30, DateTime.Now.AddYears(-18)))
@@ -43,7 +48,9 @@ public class Program
         foreach (var group in groupedFiles)
         {
             int nikSuffix = counter % 600 + 1;
-            int nik = (fakerBiodata.Generate().NIK / 1000) * 1000 + nikSuffix;
+            var generatedBiodata = fakerBiodata.Generate();
+            string baseNik = generatedBiodata.NIK.Substring(0, 13);
+            string nik = baseNik + nikSuffix.ToString("D3");
             counter++;
 
             // Check if biodata exists for this NIK
@@ -75,24 +82,32 @@ public class Program
 
         // Membaca dan menampilkan data
         
-         //foreach (var s in results)
-         //{
-         //    Console.WriteLine($"NIK: {s.NIK}, Nama: {s.Nama}, Alamat: {s.Alamat}, Agama: {s.Agama}, Status Perkawinan: {s.StatusPerkawinan}, Pekerjaan: {s.Pekerjaan}, Kewarganegaraan: {s.Kewarganegaraan}, Jenis Kelamin: {s.JenisKelamin}, Golongan Darah: {s.GolonganDarah}");
-         //}
+         foreach (var s in results)
+         {
+            // Console.WriteLine($"NIK: {s.NIK}, Nama: {s.Nama}, Alamat: {s.Alamat}, Agama: {s.Agama}, Status Perkawinan: {s.StatusPerkawinan}, Pekerjaan: {s.Pekerjaan}, Kewarganegaraan: {s.Kewarganegaraan}, Jenis Kelamin: {s.JenisKelamin}, Golongan Darah: {s.GolonganDarah}");
+            Console.WriteLine($"NIK: {s.NIK}");
+         }
          foreach (var s in sidikJariResults)
          {
              Console.WriteLine($"Berkas Citra: {s.BerkasCitra}, Nama: {s.Nama}");
          }
-        //var databaseService = new FingerprintService(db);
 
-        //var berkasCitraList = databaseService.GetAllBerkasCitra();
 
-        //for (int i = 0; i < berkasCitraList.Count; i++) {
+        // var namaberkas = fingerprintService.GetNamaByBerkasCitra("");
+    
+        // var databaseService = new FingerprintService(db);
+
+        // var berkasCitraList = databaseService.GetAllBerkasCitra();
+
+        // for (int i = 0; i < berkasCitraList.Count; i++) {
         //    var berkasCitra = berkasCitraList[i];
         //    var berkas = berkasCitra.BerkasCitra;
         //    var nama = berkasCitra.Nama;
         //    Console.WriteLine($"Nama: {nama}, Berkas: {berkas}");
-        //}
+        // }
         db.Close();
+
+
+        
     }
 }
