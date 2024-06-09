@@ -10,7 +10,7 @@ namespace Database
         private static SQLiteConnection _connection;
         private string thread_fingerprint;
         public double last_similarity;
-        private double similarity_tolerance = 0;
+        private double similarity_tolerance = 80;
 
         public static SQLiteConnection GetConnection()
         {
