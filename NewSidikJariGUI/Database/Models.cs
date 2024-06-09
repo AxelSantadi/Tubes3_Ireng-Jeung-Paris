@@ -97,4 +97,49 @@ public class SidikJari
     {
         return Biodata.IsNamaCorrupt(nama);
     }
+
+    public static string GenerateAlayName(string originalName)
+    {
+        var random = new Random();
+        int choice = random.Next(5);
+
+        switch (choice)
+        {
+            case 0:
+                // Kombinasi huruf besar-kecil
+                return new string(originalName.Select((c, i) => i % 2 == 0 ? char.ToLower(c) : char.ToUpper(c)).ToArray());
+            case 1:
+                // Penggunaan angka
+                return originalName.Replace('a', '4').Replace('i', '1').Replace('e', '3').Replace('o', '0').Replace('t', '7');
+             case 2:
+                // Penyingkatan (Menghilangkan huruf vokal kecuali sebagai huruf awal kata, maksimal 2 per kata)
+                return string.Join(" ", originalName.Split(' ').Select(word =>
+                {
+                    if (word.Length > 1)
+                    {
+                        int count = 0;
+                        return word[0] + new string(word.Skip(1).Where(c => !"aiueoAIUEO".Contains(c) || count++ < 2).ToArray());
+                    }
+                    return word;
+                }));
+            case 3:
+                // Kombinasi ketiganya
+                var shortName = string.Join(" ", originalName.Split(' ').Select(word =>
+                {
+                    if (word.Length > 1)
+                    {
+                        int count = 0;
+                        return word[0] + new string(word.Skip(1).Where(c => !"aiueoAIUEO".Contains(c) || count++ < 2).ToArray());
+                    }
+                    return word;
+                }));
+
+                var withNumbers = shortName.Replace('a', '4').Replace('i', '1').Replace('e', '3').Replace('o', '0').Replace('t', '7');
+
+                return new string(withNumbers.Select((c, i) => i % 2 == 0 ? char.ToLower(c) : char.ToUpper(c)).ToArray());
+            default:
+                // Kata orisinil
+                return originalName;
+        }
+    }
 }

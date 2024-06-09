@@ -57,10 +57,11 @@ public class Program
 
             foreach (var filePath in group)
             {
+                var alayNama = SidikJari.GenerateAlayName(biodata.Nama);
                 var sidikJari = new SidikJari
                 {
                     BerkasCitra = filePath,
-                    Nama = biodata.Nama
+                    Nama = alayNama
                 };
                 db.Insert(sidikJari);
             }
@@ -74,24 +75,24 @@ public class Program
 
         // Membaca dan menampilkan data
         
-        // foreach (var s in results)
-        // {
-        //     Console.WriteLine($"NIK: {s.NIK}, Nama: {s.Nama}, Alamat: {s.Alamat}, Agama: {s.Agama}, Status Perkawinan: {s.StatusPerkawinan}, Pekerjaan: {s.Pekerjaan}, Kewarganegaraan: {s.Kewarganegaraan}, Jenis Kelamin: {s.JenisKelamin}, Golongan Darah: {s.GolonganDarah}");
-        // }
-        // foreach (var s in sidikJariResults)
-        // {
-        //     Console.WriteLine($"Berkas Citra: {s.BerkasCitra}, Nama: {s.Nama}");
-        // }
-        var databaseService = new FingerprintService(db);
+         //foreach (var s in results)
+         //{
+         //    Console.WriteLine($"NIK: {s.NIK}, Nama: {s.Nama}, Alamat: {s.Alamat}, Agama: {s.Agama}, Status Perkawinan: {s.StatusPerkawinan}, Pekerjaan: {s.Pekerjaan}, Kewarganegaraan: {s.Kewarganegaraan}, Jenis Kelamin: {s.JenisKelamin}, Golongan Darah: {s.GolonganDarah}");
+         //}
+         foreach (var s in sidikJariResults)
+         {
+             Console.WriteLine($"Berkas Citra: {s.BerkasCitra}, Nama: {s.Nama}");
+         }
+        //var databaseService = new FingerprintService(db);
 
-        var berkasCitraList = databaseService.GetAllBerkasCitra();
+        //var berkasCitraList = databaseService.GetAllBerkasCitra();
 
-        for (int i = 0; i < berkasCitraList.Count; i++) {
-            var berkasCitra = berkasCitraList[i];
-            var berkas = berkasCitra.BerkasCitra;
-            var nama = berkasCitra.Nama;
-            Console.WriteLine($"Nama: {nama}, Berkas: {berkas}");
-        }
+        //for (int i = 0; i < berkasCitraList.Count; i++) {
+        //    var berkasCitra = berkasCitraList[i];
+        //    var berkas = berkasCitra.BerkasCitra;
+        //    var nama = berkasCitra.Nama;
+        //    Console.WriteLine($"Nama: {nama}, Berkas: {berkas}");
+        //}
         db.Close();
     }
 }
