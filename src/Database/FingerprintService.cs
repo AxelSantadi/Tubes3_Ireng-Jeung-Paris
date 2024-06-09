@@ -7,10 +7,15 @@ namespace Database
 {
     public class FingerprintService
     {
-        private readonly SQLiteConnection _connection;
+        private static SQLiteConnection _connection;
         private string thread_fingerprint;
         public double last_similarity;
+        private double similarity_tolerance = 0;
 
+        public static SQLiteConnection GetConnection()
+        {
+            return _connection;
+        }
         public string localize_path(string path)
         {
             string cur_dir = @"..\..\..\..\Database";
@@ -57,6 +62,7 @@ namespace Database
             return berkasCitraList;
         }
 
+        //Basic beta non threading searcher
         public string getBerkascitrabyAlgo(string berkasCitra, string algo)
         {
             var berkasCitraList = GetAllBerkasCitra();
@@ -85,6 +91,7 @@ namespace Database
             return result;
         }
 
+        //Giga chad multi threading
         private readonly object result_lock = new();
         public string threadedGetBerkasByAlgo(string berkasCitra, string algo)
         {
@@ -93,6 +100,7 @@ namespace Database
             string local_result = "";
             bool resultFound = false;
 
+            //looper
             Parallel.ForEach(berkasCitraList, (sidik, state) =>
             {
                 if (resultFound)
@@ -118,7 +126,7 @@ namespace Database
                 {
                     lock (result_lock)
                     {
-                        // Check the flag again inside the lock to ensure it hasn't been updated by another thread
+                        // Check kalo misalnya udah ada yang lain ketemu
                         if (!resultFound)
                         {
                             resultFound = true;
@@ -129,6 +137,44 @@ namespace Database
                 }
             });
 
+            if (!resultFound)
+            {
+                //wow threading
+                double best_percentage = 0;
+                Parallel.ForEach(berkasCitraList, (sidik) =>
+                {
+                    var berkas = localize_path(sidik.BerkasCitra);
+                    var Ascii = Algorithm.FingerprintConverter.ConvertToBinary(berkas);
+
+                    try
+                    {
+                        double percentage = Algorithm.Hamming.Similarity(Ascii, Asciiinput);
+
+                        if (percentage >= similarity_tolerance)
+                        {
+                            //mutex
+                            lock (result_lock)
+                            {
+                                if (percentage > best_percentage)
+                                {
+                                    best_percentage = percentage;
+                                    local_result = berkas;
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception e) { 
+
+                    }
+                });
+                last_similarity = best_percentage;
+            }
+            else
+            {
+                last_similarity = 100;
+            }
+
+            
             return local_result;
         }
     }

@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FingerprintService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="blogging.db" />
   </ItemGroup>
 

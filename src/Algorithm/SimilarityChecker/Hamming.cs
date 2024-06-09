@@ -1,3 +1,5 @@
+
+namespace Algorithm {
 public static class Hamming {
 	public static int Distance(string a, string b) {
 		if (a.Length != b.Length) {
@@ -22,4 +24,5 @@ public static class Hamming {
 			return (1 - (double)distance / a.Length) * 100;
 		}
 	}
+}
 }

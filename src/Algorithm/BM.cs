@@ -2,16 +2,19 @@ using System;
 
 namespace Algorithm
 {
-    public static class BoyerMooreAlgorithm{
+    public class BoyerMooreAlgorithm
+    {
         public static int[] ComputeLastOccurrenceArray(string pattern)
         {
             int[] lastOccurrence = new int[256]; // ukuran ASCII
 
+            // Inisialisasi semua karakter dengan -1
             for (int i = 0; i < lastOccurrence.Length; i++)
             {
-                lastOccurrence[i] = -1; // inisialisasi semua karakter dengan -1
+                lastOccurrence[i] = -1;
             }
 
+            // Setiap karakter dalam pattern mendapat nilai indeks terakhirnya
             for (int i = 0; i < pattern.Length; i++)
             {
                 lastOccurrence[(int)pattern[i]] = i;
@@ -33,6 +36,7 @@ namespace Algorithm
             int[] lastOccurrence = ComputeLastOccurrenceArray(pattern);
             int shift = 0;
             int matchCount = 0;
+            int totalComparisons = 0;
 
             while (shift <= textLength - patternLength)
             {
@@ -43,9 +47,12 @@ namespace Algorithm
                     matchCount++;
                 }
 
+                totalComparisons += (patternLength - 1 - j);
+
                 if (j < 0)
                 {
-                    double percentage = (double)matchCount / patternLength * 100; // menghitung persentase kecocokan
+                    // Pola ditemukan
+                    double percentage = (double)matchCount / totalComparisons * 100; // menghitung persentase kecocokan
                     return percentage;
                 }
 
