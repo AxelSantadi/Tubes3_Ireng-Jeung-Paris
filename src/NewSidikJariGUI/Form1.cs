@@ -65,7 +65,8 @@ namespace NewSidikJariGUI
             if (current_imgpath != null)
             {
                 Stopwatch sw = Stopwatch.StartNew();
-                String fname = fs.getBerkascitrabyAlgo(current_imgpath, algo);
+                //String fname = fs.getBerkascitrabyAlgo(current_imgpath, algo);
+                String fname = fs.threadedGetBerkasByAlgo(current_imgpath,algo);
                 if (fname != null && fname != "")
                 {
                     String path = Path.Combine(@"..\..\..\..\Database", fname);

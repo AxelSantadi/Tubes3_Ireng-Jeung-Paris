@@ -1,12 +1,14 @@
 using System;
 using SQLite;
 using Algorithm;
+using System.Collections.Concurrent;
 
 namespace Database
 {
     public class FingerprintService
     {
         private readonly SQLiteConnection _connection;
+        private string thread_fingerprint;
         public double last_similarity;
 
         public string localize_path(string path)
@@ -83,5 +85,51 @@ namespace Database
             return result;
         }
 
+        private readonly object result_lock = new();
+        public string threadedGetBerkasByAlgo(string berkasCitra, string algo)
+        {
+            var berkasCitraList = GetAllBerkasCitra();
+            var Asciiinput = Algorithm.FingerprintConverter.ConvertToBinary(berkasCitra);
+            string local_result = "";
+            bool resultFound = false;
+
+            Parallel.ForEach(berkasCitraList, (sidik, state) =>
+            {
+                if (resultFound)
+                {
+                    state.Break();
+                    return;
+                }
+
+                double percentage = 0;
+                var berkas = localize_path(sidik.BerkasCitra);
+                var Ascii = Algorithm.FingerprintConverter.ConvertToBinary(berkas);
+
+                if (algo == "BM")
+                {
+                    percentage = Algorithm.BoyerMooreAlgorithm.BoyerMooreSearch(Ascii, Asciiinput);
+                }
+                else if (algo == "KMP")
+                {
+                    percentage = Algorithm.KMPAlgorithm.KMPSearch(Ascii, Asciiinput);
+                }
+
+                if (percentage > 85)
+                {
+                    lock (result_lock)
+                    {
+                        // Check the flag again inside the lock to ensure it hasn't been updated by another thread
+                        if (!resultFound)
+                        {
+                            resultFound = true;
+                            local_result = berkas;
+                            state.Break(); // Stop further iterations
+                        }
+                    }
+                }
+            });
+
+            return local_result;
+        }
     }
 }
